@@ -9,6 +9,8 @@ https://github.com/Spanchb0tik
 
 https://github.com/dark516/ai_taxi
 
+https://github.com/zalupa52
+
 
 доки 
 
