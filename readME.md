@@ -27,3 +27,18 @@ chatgpt бесплатно
 
 https://chatgptchatapp.com/#google_vignette
 https://lmarena.ai/
+
+
+
+import easyocr
+from PIL import Image
+
+# Инициализация считывателя с поддержкой русского языка
+reader = easyocr.Reader(['ru', 'en'])  # Можно добавить несколько языков, например 'ru' и 'en'
+
+# Укажите путь к изображению
+image_path = "/Users/andrejboriskin/Downloads/Photos with Text.png"  # Замените на путь к вашему изображению
+result = reader.readtext(image_path, detail=0)
+
+# Вывод распознанного текста
+print("Распознанный текст:", "\n".join(result))
